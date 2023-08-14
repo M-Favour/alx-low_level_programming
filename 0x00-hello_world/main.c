@@ -7,5 +7,6 @@
  */
 int main(void)
 {
+	printf("Hello, world")b
 	return (0);
 }
