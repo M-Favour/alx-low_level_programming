@@ -16,11 +16,11 @@ int main(void)
 
 	/* your code goes there */
 	if (n > 0)
-		putchar(n + "is positive");
+		putchar(n + 'is positive');
 	else if (n < 0)
-		putchar(n + "is negative");
+		putchar(n + 'is negative');
 	else
-		putchar(n + "is zero");
+		putchar(n + 'is zero');
 
 	return (0);
 }
