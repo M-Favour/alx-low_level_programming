@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <main.h>
 /**
  * main - Your code starts here
  *
@@ -8,4 +9,6 @@
 int main(void)
 {
 	printf("_putchar\n");
+
+	return (0);
 }
