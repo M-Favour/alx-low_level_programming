@@ -11,9 +11,9 @@ int main(void)
 
 	for (i = 0; i <= 7; i++)
 	{
-		for (j = 0; j <= 8; j++)
+		for (j = i + 1; j <= 8; j++)
 		{
-			for (k = 0; k <= 9; k++)
+			for (k = j + 1; k <= 9; k++)
 			{
 				putchar(i + '0');
 				putchar(j + '0');
@@ -23,10 +23,6 @@ int main(void)
 				{
 					putchar(',');
 					putchar(' ');
-				}
-				else if (i == j || j == k || i == k)
-				{
-					continue;
 				}
 				else
 				{
