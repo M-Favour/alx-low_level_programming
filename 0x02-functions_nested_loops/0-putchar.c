@@ -1,5 +1,4 @@
-#include <unistd.h>
-#include <string.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * main - Your code starts here
@@ -9,10 +8,14 @@
 
 int main(void)
 {
-	const char*message = "_putchar";
-
-	size_t len = strlen(message);
-	write(1, message, len);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
 
 	return (0);
 }
