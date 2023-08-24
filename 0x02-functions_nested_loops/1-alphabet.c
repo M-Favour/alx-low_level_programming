@@ -2,6 +2,8 @@
 /**
  * main - Your code starts here
  *
+ * print_alphabet - Prints a-z
+ *
  * Return: Always zero
  */
 
@@ -10,9 +12,9 @@ void print_alphabet(void)
 {
 	int i;
 
-	for (i = 97; i <= 122; i++)
+	for (i = 97; i <= 123; i++)
 	{
-		if (i != 122)
+		if (i != 123)
 		{
 			_putchar(i);
 		}
