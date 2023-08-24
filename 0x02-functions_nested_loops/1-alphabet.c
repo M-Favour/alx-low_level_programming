@@ -6,7 +6,7 @@
  */
 
 /*function declaration and definition*/
-int print_alphabet()
+void print_alphabet(void)
 {
 	int i;
 
