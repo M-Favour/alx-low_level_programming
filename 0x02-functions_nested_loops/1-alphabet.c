@@ -1,7 +1,5 @@
 #include "main.h"
 /**
- * main - Your code starts here
- *
  * print_alphabet - Prints a-z
  *
  * Return: Always zero
