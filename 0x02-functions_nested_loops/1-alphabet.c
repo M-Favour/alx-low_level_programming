@@ -5,7 +5,8 @@
  * Return: Always zero
  */
 
-int main(void)
+/*function declaration and definition*/
+int print_alphabet()
 {
 	int i;
 
@@ -20,6 +21,10 @@ int main(void)
 			_putchar('\n');
 		}
 	}
+}
 
+int main(void)
+{
+	print_alphabet();
 	return (0);
 }
