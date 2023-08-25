@@ -10,14 +10,15 @@
 
 int _islower(int c)
 {
+	int n = 0;
 
 	if (c >= 65 && c <= 90)
 	{
-		_putchar('1');
+		_putchar(48 + n);
 	}
 	else
 	{
-		_putchar('0');
+		_putchar(49 + n);
 	}
 
 	return (0);
