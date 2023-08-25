@@ -3,12 +3,10 @@
 /**
  * _islower - Checks if a character is in upper or lowercase
  *
- * @c: the character to be checked
- *
  * Return: Always zero
  */
 
-int _islower(int c)
+int _islower(void)
 {
 	int c = 65;
 
