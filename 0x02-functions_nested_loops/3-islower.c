@@ -8,9 +8,8 @@
 
 int _islower(void)
 {
-	int c = 65;
 
-	if (c <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		_putchar('1');
 	}
